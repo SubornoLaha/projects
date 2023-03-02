@@ -1,0 +1,47 @@
+body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        min-width: 240px;
+        background-color: black;
+}
+h2{
+        color: skyblue;
+}
+.image{
+        width: 80%;
+        height: 60%;
+}
+.box{
+        width: 80%;
+        height: 80vh;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:whitesmoke;gap: 2.5rem;
+}
+p{
+        font-size: .5rem;
+}
+button{
+        border-radius: .3rem;
+        background: linear-gradient(23deg,skyblue,darkblue);
+}
+
+@media screen and (max-width:610px) {
+        .box{
+                display: flex;
+             
+                flex-direction: column;       
+        }
+        .image{
+                display: flex;
+                justify-content: center;
+        }
+        img{
+                width: 90%;
+        }
+        
+}
